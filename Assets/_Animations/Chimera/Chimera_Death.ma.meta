@@ -1,0 +1,712 @@
+fileFormatVersion: 2
+guid: 53621f313a13a6e46ba621e4a7f8a567
+timeCreated: 1496276575
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: b_back1
+    100002: b_l_hip
+    100004: b_r_hip
+    100006: b_tail1
+    100008: boss_bitch
+    100010: cluster1Handle
+    100012: cluster2Handle
+    100014: cntrl_everything
+    100016: cntrl_l_foot
+    100018: cntrl_l_heel
+    100020: cntrl_l_toe
+    100022: cntrl_r_foot
+    100024: cntrl_r_heel
+    100026: cntrl_r_toe
+    100028: cntrl_tail
+    100030: cntrl_topback
+    100032: cntrl_waist
+    100034: Ctrl_b_back1
+    100036: Ctrl_b_back2
+    100038: Ctrl_b_back3
+    100040: Ctrl_b_back4
+    100042: Ctrl_b_back5
+    100044: Ctrl_b_backtop
+    100046: Ctrl_b_bear_base
+    100048: Ctrl_b_bear_chin
+    100050: Ctrl_b_bear_face
+    100052: Ctrl_b_bear_jaw
+    100054: Ctrl_b_bear_mouth
+    100056: Ctrl_b_bear_nose
+    100058: Ctrl_b_boar_base
+    100060: Ctrl_b_boar_chin
+    100062: Ctrl_b_boar_chin 1
+    100064: Ctrl_b_boar_face
+    100066: Ctrl_b_boar_jaw
+    100068: Ctrl_b_boar_leg1
+    100070: Ctrl_b_boar_leg2
+    100072: Ctrl_b_boar_leg3
+    100074: Ctrl_b_boar_mouth
+    100076: Ctrl_b_human_base
+    100078: Ctrl_b_human_elbow
+    100080: Ctrl_b_human_hair
+    100082: Ctrl_b_human_hand
+    100084: Ctrl_b_human_head
+    100086: Ctrl_b_human_shoulder
+    100088: Ctrl_b_human_wrist
+    100090: Ctrl_b_l_ankle
+    100092: Ctrl_b_l_clavicle
+    100094: Ctrl_b_l_elbow
+    100096: Ctrl_b_l_foot
+    100098: Ctrl_b_l_hand
+    100100: Ctrl_b_l_hip
+    100102: Ctrl_b_l_knee
+    100104: Ctrl_b_l_shin
+    100106: Ctrl_b_l_shoulder
+    100108: Ctrl_b_l_wrist
+    100110: Ctrl_b_neck1
+    100112: Ctrl_b_neck2
+    100114: Ctrl_b_r_ankle
+    100116: Ctrl_b_r_clavicle
+    100118: Ctrl_b_r_elbow
+    100120: Ctrl_b_r_foot
+    100122: Ctrl_b_r_hand
+    100124: Ctrl_b_r_hip
+    100126: Ctrl_b_r_knee
+    100128: Ctrl_b_r_shin
+    100130: Ctrl_b_r_shoulder
+    100132: Ctrl_b_r_thumb1
+    100134: Ctrl_b_r_thumb2
+    100136: Ctrl_b_r_wrist
+    100138: Ctrl_b_root
+    100140: Ctrl_b_tail1
+    100142: Ctrl_b_tail2
+    100144: Ctrl_b_tail3
+    100146: Ctrl_b_tail4
+    100148: Ctrl_b_tail5
+    100150: Ctrl_b_tail6
+    100152: Ctrl_b_wolf_base
+    100154: Ctrl_b_wolf_chin
+    100156: Ctrl_b_wolf_face
+    100158: Ctrl_b_wolf_jaw
+    100160: Ctrl_b_wolf_leg1
+    100162: Ctrl_b_wolf_leg2
+    100164: Ctrl_b_wolf_leg3
+    100166: Ctrl_b_wolf_leg4
+    100168: Ctrl_b_wolf_mouth
+    100170: Ctrl_b_wolf_nose
+    100172: curve1
+    100174: //RootNode
+    100176: Dont_Touch
+    100178: ik_l_leg
+    100180: ik_l_toe
+    100182: ik_r_leg
+    100184: ik_r_toe
+    100186: ikHandle1
+    100188: ikHandle2
+    100190: left
+    100192: mastercontrol
+    100194: Slave_b_back2
+    100196: Slave_b_back3
+    100198: Slave_b_back4
+    100200: Slave_b_back5
+    100202: Slave_b_backtop
+    100204: Slave_b_bear_base
+    100206: Slave_b_bear_face
+    100208: Slave_b_bear_jaw
+    100210: Slave_b_bear_mouth
+    100212: Slave_b_boar_base
+    100214: Slave_b_boar_face
+    100216: Slave_b_boar_face_b_boar_chin
+    100218: Slave_b_boar_jaw
+    100220: Slave_b_boar_jaw_b_boar_chin
+    100222: Slave_b_boar_leg1
+    100224: Slave_b_boar_leg2
+    100226: Slave_b_boar_leg3
+    100228: Slave_b_boar_mouth
+    100230: Slave_b_human_base
+    100232: Slave_b_human_elbow
+    100234: Slave_b_human_head
+    100236: Slave_b_human_shoulder
+    100238: Slave_b_human_wrist
+    100240: Slave_b_l_ankle
+    100242: Slave_b_l_clavicle
+    100244: Slave_b_l_elbow
+    100246: Slave_b_l_knee
+    100248: Slave_b_l_shin
+    100250: Slave_b_l_shoulder
+    100252: Slave_b_l_wrist
+    100254: Slave_b_neck1
+    100256: Slave_b_neck2
+    100258: Slave_b_r_ankle
+    100260: Slave_b_r_clavicle
+    100262: Slave_b_r_elbow
+    100264: Slave_b_r_hand
+    100266: Slave_b_r_knee
+    100268: Slave_b_r_shin
+    100270: Slave_b_r_shoulder
+    100272: Slave_b_r_thumb1
+    100274: Slave_b_r_thumb2
+    100276: Slave_b_r_wrist
+    100278: Slave_b_root
+    100280: Slave_b_tail2
+    100282: Slave_b_tail3
+    100284: Slave_b_tail4
+    100286: Slave_b_tail5
+    100288: Slave_b_wolf_base
+    100290: Slave_b_wolf_face
+    100292: Slave_b_wolf_jaw
+    100294: Slave_b_wolf_leg1
+    100296: Slave_b_wolf_leg2
+    100298: Slave_b_wolf_leg3
+    100300: Slave_b_wolf_mouth
+    400000: b_back1
+    400002: b_l_hip
+    400004: b_r_hip
+    400006: b_tail1
+    400008: boss_bitch
+    400010: cluster1Handle
+    400012: cluster2Handle
+    400014: cntrl_everything
+    400016: cntrl_l_foot
+    400018: cntrl_l_heel
+    400020: cntrl_l_toe
+    400022: cntrl_r_foot
+    400024: cntrl_r_heel
+    400026: cntrl_r_toe
+    400028: cntrl_tail
+    400030: cntrl_topback
+    400032: cntrl_waist
+    400034: Ctrl_b_back1
+    400036: Ctrl_b_back2
+    400038: Ctrl_b_back3
+    400040: Ctrl_b_back4
+    400042: Ctrl_b_back5
+    400044: Ctrl_b_backtop
+    400046: Ctrl_b_bear_base
+    400048: Ctrl_b_bear_chin
+    400050: Ctrl_b_bear_face
+    400052: Ctrl_b_bear_jaw
+    400054: Ctrl_b_bear_mouth
+    400056: Ctrl_b_bear_nose
+    400058: Ctrl_b_boar_base
+    400060: Ctrl_b_boar_chin
+    400062: Ctrl_b_boar_chin 1
+    400064: Ctrl_b_boar_face
+    400066: Ctrl_b_boar_jaw
+    400068: Ctrl_b_boar_leg1
+    400070: Ctrl_b_boar_leg2
+    400072: Ctrl_b_boar_leg3
+    400074: Ctrl_b_boar_mouth
+    400076: Ctrl_b_human_base
+    400078: Ctrl_b_human_elbow
+    400080: Ctrl_b_human_hair
+    400082: Ctrl_b_human_hand
+    400084: Ctrl_b_human_head
+    400086: Ctrl_b_human_shoulder
+    400088: Ctrl_b_human_wrist
+    400090: Ctrl_b_l_ankle
+    400092: Ctrl_b_l_clavicle
+    400094: Ctrl_b_l_elbow
+    400096: Ctrl_b_l_foot
+    400098: Ctrl_b_l_hand
+    400100: Ctrl_b_l_hip
+    400102: Ctrl_b_l_knee
+    400104: Ctrl_b_l_shin
+    400106: Ctrl_b_l_shoulder
+    400108: Ctrl_b_l_wrist
+    400110: Ctrl_b_neck1
+    400112: Ctrl_b_neck2
+    400114: Ctrl_b_r_ankle
+    400116: Ctrl_b_r_clavicle
+    400118: Ctrl_b_r_elbow
+    400120: Ctrl_b_r_foot
+    400122: Ctrl_b_r_hand
+    400124: Ctrl_b_r_hip
+    400126: Ctrl_b_r_knee
+    400128: Ctrl_b_r_shin
+    400130: Ctrl_b_r_shoulder
+    400132: Ctrl_b_r_thumb1
+    400134: Ctrl_b_r_thumb2
+    400136: Ctrl_b_r_wrist
+    400138: Ctrl_b_root
+    400140: Ctrl_b_tail1
+    400142: Ctrl_b_tail2
+    400144: Ctrl_b_tail3
+    400146: Ctrl_b_tail4
+    400148: Ctrl_b_tail5
+    400150: Ctrl_b_tail6
+    400152: Ctrl_b_wolf_base
+    400154: Ctrl_b_wolf_chin
+    400156: Ctrl_b_wolf_face
+    400158: Ctrl_b_wolf_jaw
+    400160: Ctrl_b_wolf_leg1
+    400162: Ctrl_b_wolf_leg2
+    400164: Ctrl_b_wolf_leg3
+    400166: Ctrl_b_wolf_leg4
+    400168: Ctrl_b_wolf_mouth
+    400170: Ctrl_b_wolf_nose
+    400172: curve1
+    400174: //RootNode
+    400176: Dont_Touch
+    400178: ik_l_leg
+    400180: ik_l_toe
+    400182: ik_r_leg
+    400184: ik_r_toe
+    400186: ikHandle1
+    400188: ikHandle2
+    400190: left
+    400192: mastercontrol
+    400194: Slave_b_back2
+    400196: Slave_b_back3
+    400198: Slave_b_back4
+    400200: Slave_b_back5
+    400202: Slave_b_backtop
+    400204: Slave_b_bear_base
+    400206: Slave_b_bear_face
+    400208: Slave_b_bear_jaw
+    400210: Slave_b_bear_mouth
+    400212: Slave_b_boar_base
+    400214: Slave_b_boar_face
+    400216: Slave_b_boar_face_b_boar_chin
+    400218: Slave_b_boar_jaw
+    400220: Slave_b_boar_jaw_b_boar_chin
+    400222: Slave_b_boar_leg1
+    400224: Slave_b_boar_leg2
+    400226: Slave_b_boar_leg3
+    400228: Slave_b_boar_mouth
+    400230: Slave_b_human_base
+    400232: Slave_b_human_elbow
+    400234: Slave_b_human_head
+    400236: Slave_b_human_shoulder
+    400238: Slave_b_human_wrist
+    400240: Slave_b_l_ankle
+    400242: Slave_b_l_clavicle
+    400244: Slave_b_l_elbow
+    400246: Slave_b_l_knee
+    400248: Slave_b_l_shin
+    400250: Slave_b_l_shoulder
+    400252: Slave_b_l_wrist
+    400254: Slave_b_neck1
+    400256: Slave_b_neck2
+    400258: Slave_b_r_ankle
+    400260: Slave_b_r_clavicle
+    400262: Slave_b_r_elbow
+    400264: Slave_b_r_hand
+    400266: Slave_b_r_knee
+    400268: Slave_b_r_shin
+    400270: Slave_b_r_shoulder
+    400272: Slave_b_r_thumb1
+    400274: Slave_b_r_thumb2
+    400276: Slave_b_r_wrist
+    400278: Slave_b_root
+    400280: Slave_b_tail2
+    400282: Slave_b_tail3
+    400284: Slave_b_tail4
+    400286: Slave_b_tail5
+    400288: Slave_b_wolf_base
+    400290: Slave_b_wolf_face
+    400292: Slave_b_wolf_jaw
+    400294: Slave_b_wolf_leg1
+    400296: Slave_b_wolf_leg2
+    400298: Slave_b_wolf_leg3
+    400300: Slave_b_wolf_mouth
+    4300000: boss_bitch
+    7400000: Chimera_Death
+    9500000: //RootNode
+    13700000: boss_bitch
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Chimera_Death
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: boss_bitch
+        weight: 1
+      - path: Ctrl_b_root
+        weight: 1
+      - path: Ctrl_b_root/Ctrl_b_back1
+        weight: 1
+      - path: Ctrl_b_root/Ctrl_b_back1/Ctrl_b_back2
+        weight: 1
+      - path: Ctrl_b_root/Ctrl_b_back1/Ctrl_b_back2/Ctrl_b_back3
+        weight: 1
+      - path: Ctrl_b_root/Ctrl_b_back1/Ctrl_b_back2/Ctrl_b_back3/Ctrl_b_back4
+        weight: 1
+      - path: Ctrl_b_root/Ctrl_b_back1/Ctrl_b_back2/Ctrl_b_back3/Ctrl_b_back4/Ctrl_b_back5
+        weight: 1
+      - path: Ctrl_b_root/Ctrl_b_back1/Ctrl_b_back2/Ctrl_b_back3/Ctrl_b_back4/Ctrl_b_back5/Ctrl_b_backtop
+        weight: 1
+      - path: Ctrl_b_root/Ctrl_b_back1/Ctrl_b_back2/Ctrl_b_back3/Ctrl_b_back4/Ctrl_b_back5/Ctrl_b_backtop/Ctrl_b_human_base
+        weight: 1
+      - path: Ctrl_b_root/Ctrl_b_back1/Ctrl_b_back2/Ctrl_b_back3/Ctrl_b_back4/Ctrl_b_back5/Ctrl_b_backtop/Ctrl_b_human_base/Ctrl_b_human_head
+        weight: 1
+      - path: Ctrl_b_root/Ctrl_b_back1/Ctrl_b_back2/Ctrl_b_back3/Ctrl_b_back4/Ctrl_b_back5/Ctrl_b_backtop/Ctrl_b_human_base/Ctrl_b_human_head/Ctrl_b_human_hair
+        weight: 1
+      - path: Ctrl_b_root/Ctrl_b_back1/Ctrl_b_back2/Ctrl_b_back3/Ctrl_b_back4/Ctrl_b_back5/Ctrl_b_backtop/Ctrl_b_human_base/Ctrl_b_human_shoulder
+        weight: 1
+      - path: Ctrl_b_root/Ctrl_b_back1/Ctrl_b_back2/Ctrl_b_back3/Ctrl_b_back4/Ctrl_b_back5/Ctrl_b_backtop/Ctrl_b_human_base/Ctrl_b_human_shoulder/Ctrl_b_human_elbow
+        weight: 1
+      - path: Ctrl_b_root/Ctrl_b_back1/Ctrl_b_back2/Ctrl_b_back3/Ctrl_b_back4/Ctrl_b_back5/Ctrl_b_backtop/Ctrl_b_human_base/Ctrl_b_human_shoulder/Ctrl_b_human_elbow/Ctrl_b_human_wrist
+        weight: 1
+      - path: Ctrl_b_root/Ctrl_b_back1/Ctrl_b_back2/Ctrl_b_back3/Ctrl_b_back4/Ctrl_b_back5/Ctrl_b_backtop/Ctrl_b_human_base/Ctrl_b_human_shoulder/Ctrl_b_human_elbow/Ctrl_b_human_wrist/Ctrl_b_human_hand
+        weight: 1
+      - path: Ctrl_b_root/Ctrl_b_back1/Ctrl_b_back2/Ctrl_b_back3/Ctrl_b_back4/Ctrl_b_back5/Ctrl_b_backtop/Ctrl_b_l_clavicle
+        weight: 1
+      - path: Ctrl_b_root/Ctrl_b_back1/Ctrl_b_back2/Ctrl_b_back3/Ctrl_b_back4/Ctrl_b_back5/Ctrl_b_backtop/Ctrl_b_l_clavicle/Ctrl_b_boar_leg1
+        weight: 1
+      - path: Ctrl_b_root/Ctrl_b_back1/Ctrl_b_back2/Ctrl_b_back3/Ctrl_b_back4/Ctrl_b_back5/Ctrl_b_backtop/Ctrl_b_l_clavicle/Ctrl_b_boar_leg1/Ctrl_b_boar_leg2
+        weight: 1
+      - path: Ctrl_b_root/Ctrl_b_back1/Ctrl_b_back2/Ctrl_b_back3/Ctrl_b_back4/Ctrl_b_back5/Ctrl_b_backtop/Ctrl_b_l_clavicle/Ctrl_b_boar_leg1/Ctrl_b_boar_leg2/Ctrl_b_boar_leg3
+        weight: 1
+      - path: Ctrl_b_root/Ctrl_b_back1/Ctrl_b_back2/Ctrl_b_back3/Ctrl_b_back4/Ctrl_b_back5/Ctrl_b_backtop/Ctrl_b_l_clavicle/Ctrl_b_l_shoulder
+        weight: 1
+      - path: Ctrl_b_root/Ctrl_b_back1/Ctrl_b_back2/Ctrl_b_back3/Ctrl_b_back4/Ctrl_b_back5/Ctrl_b_backtop/Ctrl_b_l_clavicle/Ctrl_b_l_shoulder/Ctrl_b_l_elbow
+        weight: 1
+      - path: Ctrl_b_root/Ctrl_b_back1/Ctrl_b_back2/Ctrl_b_back3/Ctrl_b_back4/Ctrl_b_back5/Ctrl_b_backtop/Ctrl_b_l_clavicle/Ctrl_b_l_shoulder/Ctrl_b_l_elbow/Ctrl_b_l_wrist
+        weight: 1
+      - path: Ctrl_b_root/Ctrl_b_back1/Ctrl_b_back2/Ctrl_b_back3/Ctrl_b_back4/Ctrl_b_back5/Ctrl_b_backtop/Ctrl_b_l_clavicle/Ctrl_b_l_shoulder/Ctrl_b_l_elbow/Ctrl_b_l_wrist/Ctrl_b_l_hand
+        weight: 1
+      - path: Ctrl_b_root/Ctrl_b_back1/Ctrl_b_back2/Ctrl_b_back3/Ctrl_b_back4/Ctrl_b_back5/Ctrl_b_backtop/Ctrl_b_neck1
+        weight: 1
+      - path: Ctrl_b_root/Ctrl_b_back1/Ctrl_b_back2/Ctrl_b_back3/Ctrl_b_back4/Ctrl_b_back5/Ctrl_b_backtop/Ctrl_b_neck1/Ctrl_b_neck2
+        weight: 1
+      - path: Ctrl_b_root/Ctrl_b_back1/Ctrl_b_back2/Ctrl_b_back3/Ctrl_b_back4/Ctrl_b_back5/Ctrl_b_backtop/Ctrl_b_neck1/Ctrl_b_neck2/Ctrl_b_bear_base
+        weight: 1
+      - path: Ctrl_b_root/Ctrl_b_back1/Ctrl_b_back2/Ctrl_b_back3/Ctrl_b_back4/Ctrl_b_back5/Ctrl_b_backtop/Ctrl_b_neck1/Ctrl_b_neck2/Ctrl_b_bear_base/Ctrl_b_bear_face
+        weight: 1
+      - path: Ctrl_b_root/Ctrl_b_back1/Ctrl_b_back2/Ctrl_b_back3/Ctrl_b_back4/Ctrl_b_back5/Ctrl_b_backtop/Ctrl_b_neck1/Ctrl_b_neck2/Ctrl_b_bear_base/Ctrl_b_bear_face/Ctrl_b_bear_mouth
+        weight: 1
+      - path: Ctrl_b_root/Ctrl_b_back1/Ctrl_b_back2/Ctrl_b_back3/Ctrl_b_back4/Ctrl_b_back5/Ctrl_b_backtop/Ctrl_b_neck1/Ctrl_b_neck2/Ctrl_b_bear_base/Ctrl_b_bear_face/Ctrl_b_bear_mouth/Ctrl_b_bear_jaw
+        weight: 1
+      - path: Ctrl_b_root/Ctrl_b_back1/Ctrl_b_back2/Ctrl_b_back3/Ctrl_b_back4/Ctrl_b_back5/Ctrl_b_backtop/Ctrl_b_neck1/Ctrl_b_neck2/Ctrl_b_bear_base/Ctrl_b_bear_face/Ctrl_b_bear_mouth/Ctrl_b_bear_jaw/Ctrl_b_bear_chin
+        weight: 1
+      - path: Ctrl_b_root/Ctrl_b_back1/Ctrl_b_back2/Ctrl_b_back3/Ctrl_b_back4/Ctrl_b_back5/Ctrl_b_backtop/Ctrl_b_neck1/Ctrl_b_neck2/Ctrl_b_bear_base/Ctrl_b_bear_face/Ctrl_b_bear_nose
+        weight: 1
+      - path: Ctrl_b_root/Ctrl_b_back1/Ctrl_b_back2/Ctrl_b_back3/Ctrl_b_back4/Ctrl_b_back5/Ctrl_b_backtop/Ctrl_b_neck1/Ctrl_b_neck2/Ctrl_b_bear_base/Ctrl_b_wolf_base
+        weight: 1
+      - path: Ctrl_b_root/Ctrl_b_back1/Ctrl_b_back2/Ctrl_b_back3/Ctrl_b_back4/Ctrl_b_back5/Ctrl_b_backtop/Ctrl_b_neck1/Ctrl_b_neck2/Ctrl_b_bear_base/Ctrl_b_wolf_base/Ctrl_b_wolf_face
+        weight: 1
+      - path: Ctrl_b_root/Ctrl_b_back1/Ctrl_b_back2/Ctrl_b_back3/Ctrl_b_back4/Ctrl_b_back5/Ctrl_b_backtop/Ctrl_b_neck1/Ctrl_b_neck2/Ctrl_b_bear_base/Ctrl_b_wolf_base/Ctrl_b_wolf_face/Ctrl_b_wolf_nose
+        weight: 1
+      - path: Ctrl_b_root/Ctrl_b_back1/Ctrl_b_back2/Ctrl_b_back3/Ctrl_b_back4/Ctrl_b_back5/Ctrl_b_backtop/Ctrl_b_neck1/Ctrl_b_neck2/Ctrl_b_bear_base/Ctrl_b_wolf_base/Ctrl_b_wolf_mouth
+        weight: 1
+      - path: Ctrl_b_root/Ctrl_b_back1/Ctrl_b_back2/Ctrl_b_back3/Ctrl_b_back4/Ctrl_b_back5/Ctrl_b_backtop/Ctrl_b_neck1/Ctrl_b_neck2/Ctrl_b_bear_base/Ctrl_b_wolf_base/Ctrl_b_wolf_mouth/Ctrl_b_wolf_jaw
+        weight: 1
+      - path: Ctrl_b_root/Ctrl_b_back1/Ctrl_b_back2/Ctrl_b_back3/Ctrl_b_back4/Ctrl_b_back5/Ctrl_b_backtop/Ctrl_b_neck1/Ctrl_b_neck2/Ctrl_b_bear_base/Ctrl_b_wolf_base/Ctrl_b_wolf_mouth/Ctrl_b_wolf_jaw/Ctrl_b_wolf_chin
+        weight: 1
+      - path: Ctrl_b_root/Ctrl_b_back1/Ctrl_b_back2/Ctrl_b_back3/Ctrl_b_back4/Ctrl_b_back5/Ctrl_b_backtop/Ctrl_b_neck1/Ctrl_b_neck2/Ctrl_b_boar_base
+        weight: 1
+      - path: Ctrl_b_root/Ctrl_b_back1/Ctrl_b_back2/Ctrl_b_back3/Ctrl_b_back4/Ctrl_b_back5/Ctrl_b_backtop/Ctrl_b_neck1/Ctrl_b_neck2/Ctrl_b_boar_base/Ctrl_b_boar_face
+        weight: 1
+      - path: Ctrl_b_root/Ctrl_b_back1/Ctrl_b_back2/Ctrl_b_back3/Ctrl_b_back4/Ctrl_b_back5/Ctrl_b_backtop/Ctrl_b_neck1/Ctrl_b_neck2/Ctrl_b_boar_base/Ctrl_b_boar_face/Ctrl_b_boar_chin
+        weight: 1
+      - path: Ctrl_b_root/Ctrl_b_back1/Ctrl_b_back2/Ctrl_b_back3/Ctrl_b_back4/Ctrl_b_back5/Ctrl_b_backtop/Ctrl_b_neck1/Ctrl_b_neck2/Ctrl_b_boar_base/Ctrl_b_boar_face/Ctrl_b_boar_mouth
+        weight: 1
+      - path: Ctrl_b_root/Ctrl_b_back1/Ctrl_b_back2/Ctrl_b_back3/Ctrl_b_back4/Ctrl_b_back5/Ctrl_b_backtop/Ctrl_b_neck1/Ctrl_b_neck2/Ctrl_b_boar_base/Ctrl_b_boar_face/Ctrl_b_boar_mouth/Ctrl_b_boar_jaw
+        weight: 1
+      - path: Ctrl_b_root/Ctrl_b_back1/Ctrl_b_back2/Ctrl_b_back3/Ctrl_b_back4/Ctrl_b_back5/Ctrl_b_backtop/Ctrl_b_neck1/Ctrl_b_neck2/Ctrl_b_boar_base/Ctrl_b_boar_face/Ctrl_b_boar_mouth/Ctrl_b_boar_jaw/Ctrl_b_boar_chin
+          1
+        weight: 1
+      - path: Ctrl_b_root/Ctrl_b_back1/Ctrl_b_back2/Ctrl_b_back3/Ctrl_b_back4/Ctrl_b_back5/Ctrl_b_backtop/Ctrl_b_r_clavicle
+        weight: 1
+      - path: Ctrl_b_root/Ctrl_b_back1/Ctrl_b_back2/Ctrl_b_back3/Ctrl_b_back4/Ctrl_b_back5/Ctrl_b_backtop/Ctrl_b_r_clavicle/Ctrl_b_r_shoulder
+        weight: 1
+      - path: Ctrl_b_root/Ctrl_b_back1/Ctrl_b_back2/Ctrl_b_back3/Ctrl_b_back4/Ctrl_b_back5/Ctrl_b_backtop/Ctrl_b_r_clavicle/Ctrl_b_r_shoulder/Ctrl_b_r_elbow
+        weight: 1
+      - path: Ctrl_b_root/Ctrl_b_back1/Ctrl_b_back2/Ctrl_b_back3/Ctrl_b_back4/Ctrl_b_back5/Ctrl_b_backtop/Ctrl_b_r_clavicle/Ctrl_b_r_shoulder/Ctrl_b_r_elbow/Ctrl_b_r_wrist
+        weight: 1
+      - path: Ctrl_b_root/Ctrl_b_back1/Ctrl_b_back2/Ctrl_b_back3/Ctrl_b_back4/Ctrl_b_back5/Ctrl_b_backtop/Ctrl_b_r_clavicle/Ctrl_b_r_shoulder/Ctrl_b_r_elbow/Ctrl_b_r_wrist/Ctrl_b_r_hand
+        weight: 1
+      - path: Ctrl_b_root/Ctrl_b_back1/Ctrl_b_back2/Ctrl_b_back3/Ctrl_b_back4/Ctrl_b_back5/Ctrl_b_backtop/Ctrl_b_r_clavicle/Ctrl_b_r_shoulder/Ctrl_b_r_elbow/Ctrl_b_r_wrist/Ctrl_b_r_hand/Ctrl_b_r_thumb1
+        weight: 1
+      - path: Ctrl_b_root/Ctrl_b_back1/Ctrl_b_back2/Ctrl_b_back3/Ctrl_b_back4/Ctrl_b_back5/Ctrl_b_backtop/Ctrl_b_r_clavicle/Ctrl_b_r_shoulder/Ctrl_b_r_elbow/Ctrl_b_r_wrist/Ctrl_b_r_hand/Ctrl_b_r_thumb1/Ctrl_b_r_thumb2
+        weight: 1
+      - path: Ctrl_b_root/Ctrl_b_back1/Ctrl_b_back2/Ctrl_b_back3/Ctrl_b_back4/Ctrl_b_back5/Ctrl_b_backtop/Ctrl_b_wolf_leg1
+        weight: 1
+      - path: Ctrl_b_root/Ctrl_b_back1/Ctrl_b_back2/Ctrl_b_back3/Ctrl_b_back4/Ctrl_b_back5/Ctrl_b_backtop/Ctrl_b_wolf_leg1/Ctrl_b_wolf_leg2
+        weight: 1
+      - path: Ctrl_b_root/Ctrl_b_back1/Ctrl_b_back2/Ctrl_b_back3/Ctrl_b_back4/Ctrl_b_back5/Ctrl_b_backtop/Ctrl_b_wolf_leg1/Ctrl_b_wolf_leg2/Ctrl_b_wolf_leg3
+        weight: 1
+      - path: Ctrl_b_root/Ctrl_b_back1/Ctrl_b_back2/Ctrl_b_back3/Ctrl_b_back4/Ctrl_b_back5/Ctrl_b_backtop/Ctrl_b_wolf_leg1/Ctrl_b_wolf_leg2/Ctrl_b_wolf_leg3/Ctrl_b_wolf_leg4
+        weight: 1
+      - path: Ctrl_b_root/Ctrl_b_l_hip
+        weight: 1
+      - path: Ctrl_b_root/Ctrl_b_l_hip/Ctrl_b_l_knee
+        weight: 1
+      - path: Ctrl_b_root/Ctrl_b_l_hip/Ctrl_b_l_knee/Ctrl_b_l_shin
+        weight: 1
+      - path: Ctrl_b_root/Ctrl_b_l_hip/Ctrl_b_l_knee/Ctrl_b_l_shin/Ctrl_b_l_ankle
+        weight: 1
+      - path: Ctrl_b_root/Ctrl_b_l_hip/Ctrl_b_l_knee/Ctrl_b_l_shin/Ctrl_b_l_ankle/Ctrl_b_l_foot
+        weight: 1
+      - path: Ctrl_b_root/Ctrl_b_r_hip
+        weight: 1
+      - path: Ctrl_b_root/Ctrl_b_r_hip/Ctrl_b_r_knee
+        weight: 1
+      - path: Ctrl_b_root/Ctrl_b_r_hip/Ctrl_b_r_knee/Ctrl_b_r_shin
+        weight: 1
+      - path: Ctrl_b_root/Ctrl_b_r_hip/Ctrl_b_r_knee/Ctrl_b_r_shin/Ctrl_b_r_ankle
+        weight: 1
+      - path: Ctrl_b_root/Ctrl_b_r_hip/Ctrl_b_r_knee/Ctrl_b_r_shin/Ctrl_b_r_ankle/Ctrl_b_r_foot
+        weight: 1
+      - path: Ctrl_b_root/Ctrl_b_tail1
+        weight: 1
+      - path: Ctrl_b_root/Ctrl_b_tail1/Ctrl_b_tail2
+        weight: 1
+      - path: Ctrl_b_root/Ctrl_b_tail1/Ctrl_b_tail2/Ctrl_b_tail3
+        weight: 1
+      - path: Ctrl_b_root/Ctrl_b_tail1/Ctrl_b_tail2/Ctrl_b_tail3/Ctrl_b_tail4
+        weight: 1
+      - path: Ctrl_b_root/Ctrl_b_tail1/Ctrl_b_tail2/Ctrl_b_tail3/Ctrl_b_tail4/Ctrl_b_tail5
+        weight: 1
+      - path: Ctrl_b_root/Ctrl_b_tail1/Ctrl_b_tail2/Ctrl_b_tail3/Ctrl_b_tail4/Ctrl_b_tail5/Ctrl_b_tail6
+        weight: 1
+      - path: Dont_Touch
+        weight: 1
+      - path: Dont_Touch/curve1
+        weight: 1
+      - path: Dont_Touch/ikHandle1
+        weight: 1
+      - path: left
+        weight: 1
+      - path: mastercontrol
+        weight: 1
+      - path: mastercontrol/cntrl_everything
+        weight: 1
+      - path: mastercontrol/cntrl_everything/cntrl_l_foot
+        weight: 1
+      - path: mastercontrol/cntrl_everything/cntrl_l_foot/cntrl_l_heel
+        weight: 1
+      - path: mastercontrol/cntrl_everything/cntrl_l_foot/cntrl_l_heel/ik_l_leg
+        weight: 1
+      - path: mastercontrol/cntrl_everything/cntrl_l_foot/cntrl_l_toe
+        weight: 1
+      - path: mastercontrol/cntrl_everything/cntrl_l_foot/cntrl_l_toe/ik_l_toe
+        weight: 1
+      - path: mastercontrol/cntrl_everything/cntrl_r_foot
+        weight: 1
+      - path: mastercontrol/cntrl_everything/cntrl_r_foot/cntrl_r_heel
+        weight: 1
+      - path: mastercontrol/cntrl_everything/cntrl_r_foot/cntrl_r_heel/ik_r_leg
+        weight: 1
+      - path: mastercontrol/cntrl_everything/cntrl_r_foot/cntrl_r_toe
+        weight: 1
+      - path: mastercontrol/cntrl_everything/cntrl_r_foot/cntrl_r_toe/ik_r_toe
+        weight: 1
+      - path: mastercontrol/cntrl_everything/cntrl_tail
+        weight: 1
+      - path: mastercontrol/cntrl_everything/cntrl_tail/ikHandle2
+        weight: 1
+      - path: mastercontrol/cntrl_everything/cntrl_waist
+        weight: 1
+      - path: mastercontrol/cntrl_everything/cntrl_waist/cluster2Handle
+        weight: 1
+      - path: mastercontrol/cntrl_everything/cntrl_waist/cntrl_topback
+        weight: 1
+      - path: mastercontrol/cntrl_everything/cntrl_waist/cntrl_topback/cluster1Handle
+        weight: 1
+      - path: Slave_b_root
+        weight: 1
+      - path: Slave_b_root/b_back1
+        weight: 1
+      - path: Slave_b_root/b_back1/Slave_b_back2
+        weight: 1
+      - path: Slave_b_root/b_back1/Slave_b_back2/Slave_b_back3
+        weight: 1
+      - path: Slave_b_root/b_back1/Slave_b_back2/Slave_b_back3/Slave_b_back4
+        weight: 1
+      - path: Slave_b_root/b_back1/Slave_b_back2/Slave_b_back3/Slave_b_back4/Slave_b_back5
+        weight: 1
+      - path: Slave_b_root/b_back1/Slave_b_back2/Slave_b_back3/Slave_b_back4/Slave_b_back5/Slave_b_backtop
+        weight: 1
+      - path: Slave_b_root/b_back1/Slave_b_back2/Slave_b_back3/Slave_b_back4/Slave_b_back5/Slave_b_backtop/Slave_b_human_base
+        weight: 1
+      - path: Slave_b_root/b_back1/Slave_b_back2/Slave_b_back3/Slave_b_back4/Slave_b_back5/Slave_b_backtop/Slave_b_human_base/Slave_b_human_head
+        weight: 1
+      - path: Slave_b_root/b_back1/Slave_b_back2/Slave_b_back3/Slave_b_back4/Slave_b_back5/Slave_b_backtop/Slave_b_human_base/Slave_b_human_shoulder
+        weight: 1
+      - path: Slave_b_root/b_back1/Slave_b_back2/Slave_b_back3/Slave_b_back4/Slave_b_back5/Slave_b_backtop/Slave_b_human_base/Slave_b_human_shoulder/Slave_b_human_elbow
+        weight: 1
+      - path: Slave_b_root/b_back1/Slave_b_back2/Slave_b_back3/Slave_b_back4/Slave_b_back5/Slave_b_backtop/Slave_b_human_base/Slave_b_human_shoulder/Slave_b_human_elbow/Slave_b_human_wrist
+        weight: 1
+      - path: Slave_b_root/b_back1/Slave_b_back2/Slave_b_back3/Slave_b_back4/Slave_b_back5/Slave_b_backtop/Slave_b_l_clavicle
+        weight: 1
+      - path: Slave_b_root/b_back1/Slave_b_back2/Slave_b_back3/Slave_b_back4/Slave_b_back5/Slave_b_backtop/Slave_b_l_clavicle/Slave_b_boar_leg1
+        weight: 1
+      - path: Slave_b_root/b_back1/Slave_b_back2/Slave_b_back3/Slave_b_back4/Slave_b_back5/Slave_b_backtop/Slave_b_l_clavicle/Slave_b_boar_leg1/Slave_b_boar_leg2
+        weight: 1
+      - path: Slave_b_root/b_back1/Slave_b_back2/Slave_b_back3/Slave_b_back4/Slave_b_back5/Slave_b_backtop/Slave_b_l_clavicle/Slave_b_boar_leg1/Slave_b_boar_leg2/Slave_b_boar_leg3
+        weight: 1
+      - path: Slave_b_root/b_back1/Slave_b_back2/Slave_b_back3/Slave_b_back4/Slave_b_back5/Slave_b_backtop/Slave_b_l_clavicle/Slave_b_l_shoulder
+        weight: 1
+      - path: Slave_b_root/b_back1/Slave_b_back2/Slave_b_back3/Slave_b_back4/Slave_b_back5/Slave_b_backtop/Slave_b_l_clavicle/Slave_b_l_shoulder/Slave_b_l_elbow
+        weight: 1
+      - path: Slave_b_root/b_back1/Slave_b_back2/Slave_b_back3/Slave_b_back4/Slave_b_back5/Slave_b_backtop/Slave_b_l_clavicle/Slave_b_l_shoulder/Slave_b_l_elbow/Slave_b_l_wrist
+        weight: 1
+      - path: Slave_b_root/b_back1/Slave_b_back2/Slave_b_back3/Slave_b_back4/Slave_b_back5/Slave_b_backtop/Slave_b_neck1
+        weight: 1
+      - path: Slave_b_root/b_back1/Slave_b_back2/Slave_b_back3/Slave_b_back4/Slave_b_back5/Slave_b_backtop/Slave_b_neck1/Slave_b_neck2
+        weight: 1
+      - path: Slave_b_root/b_back1/Slave_b_back2/Slave_b_back3/Slave_b_back4/Slave_b_back5/Slave_b_backtop/Slave_b_neck1/Slave_b_neck2/Slave_b_bear_base
+        weight: 1
+      - path: Slave_b_root/b_back1/Slave_b_back2/Slave_b_back3/Slave_b_back4/Slave_b_back5/Slave_b_backtop/Slave_b_neck1/Slave_b_neck2/Slave_b_bear_base/Slave_b_bear_face
+        weight: 1
+      - path: Slave_b_root/b_back1/Slave_b_back2/Slave_b_back3/Slave_b_back4/Slave_b_back5/Slave_b_backtop/Slave_b_neck1/Slave_b_neck2/Slave_b_bear_base/Slave_b_bear_face/Slave_b_bear_mouth
+        weight: 1
+      - path: Slave_b_root/b_back1/Slave_b_back2/Slave_b_back3/Slave_b_back4/Slave_b_back5/Slave_b_backtop/Slave_b_neck1/Slave_b_neck2/Slave_b_bear_base/Slave_b_bear_face/Slave_b_bear_mouth/Slave_b_bear_jaw
+        weight: 1
+      - path: Slave_b_root/b_back1/Slave_b_back2/Slave_b_back3/Slave_b_back4/Slave_b_back5/Slave_b_backtop/Slave_b_neck1/Slave_b_neck2/Slave_b_bear_base/Slave_b_wolf_base
+        weight: 1
+      - path: Slave_b_root/b_back1/Slave_b_back2/Slave_b_back3/Slave_b_back4/Slave_b_back5/Slave_b_backtop/Slave_b_neck1/Slave_b_neck2/Slave_b_bear_base/Slave_b_wolf_base/Slave_b_wolf_face
+        weight: 1
+      - path: Slave_b_root/b_back1/Slave_b_back2/Slave_b_back3/Slave_b_back4/Slave_b_back5/Slave_b_backtop/Slave_b_neck1/Slave_b_neck2/Slave_b_bear_base/Slave_b_wolf_base/Slave_b_wolf_mouth
+        weight: 1
+      - path: Slave_b_root/b_back1/Slave_b_back2/Slave_b_back3/Slave_b_back4/Slave_b_back5/Slave_b_backtop/Slave_b_neck1/Slave_b_neck2/Slave_b_bear_base/Slave_b_wolf_base/Slave_b_wolf_mouth/Slave_b_wolf_jaw
+        weight: 1
+      - path: Slave_b_root/b_back1/Slave_b_back2/Slave_b_back3/Slave_b_back4/Slave_b_back5/Slave_b_backtop/Slave_b_neck1/Slave_b_neck2/Slave_b_boar_base
+        weight: 1
+      - path: Slave_b_root/b_back1/Slave_b_back2/Slave_b_back3/Slave_b_back4/Slave_b_back5/Slave_b_backtop/Slave_b_neck1/Slave_b_neck2/Slave_b_boar_base/Slave_b_boar_face
+        weight: 1
+      - path: Slave_b_root/b_back1/Slave_b_back2/Slave_b_back3/Slave_b_back4/Slave_b_back5/Slave_b_backtop/Slave_b_neck1/Slave_b_neck2/Slave_b_boar_base/Slave_b_boar_face/Slave_b_boar_face_b_boar_chin
+        weight: 1
+      - path: Slave_b_root/b_back1/Slave_b_back2/Slave_b_back3/Slave_b_back4/Slave_b_back5/Slave_b_backtop/Slave_b_neck1/Slave_b_neck2/Slave_b_boar_base/Slave_b_boar_face/Slave_b_boar_mouth
+        weight: 1
+      - path: Slave_b_root/b_back1/Slave_b_back2/Slave_b_back3/Slave_b_back4/Slave_b_back5/Slave_b_backtop/Slave_b_neck1/Slave_b_neck2/Slave_b_boar_base/Slave_b_boar_face/Slave_b_boar_mouth/Slave_b_boar_jaw
+        weight: 1
+      - path: Slave_b_root/b_back1/Slave_b_back2/Slave_b_back3/Slave_b_back4/Slave_b_back5/Slave_b_backtop/Slave_b_neck1/Slave_b_neck2/Slave_b_boar_base/Slave_b_boar_face/Slave_b_boar_mouth/Slave_b_boar_jaw/Slave_b_boar_jaw_b_boar_chin
+        weight: 1
+      - path: Slave_b_root/b_back1/Slave_b_back2/Slave_b_back3/Slave_b_back4/Slave_b_back5/Slave_b_backtop/Slave_b_r_clavicle
+        weight: 1
+      - path: Slave_b_root/b_back1/Slave_b_back2/Slave_b_back3/Slave_b_back4/Slave_b_back5/Slave_b_backtop/Slave_b_r_clavicle/Slave_b_r_shoulder
+        weight: 1
+      - path: Slave_b_root/b_back1/Slave_b_back2/Slave_b_back3/Slave_b_back4/Slave_b_back5/Slave_b_backtop/Slave_b_r_clavicle/Slave_b_r_shoulder/Slave_b_r_elbow
+        weight: 1
+      - path: Slave_b_root/b_back1/Slave_b_back2/Slave_b_back3/Slave_b_back4/Slave_b_back5/Slave_b_backtop/Slave_b_r_clavicle/Slave_b_r_shoulder/Slave_b_r_elbow/Slave_b_r_wrist
+        weight: 1
+      - path: Slave_b_root/b_back1/Slave_b_back2/Slave_b_back3/Slave_b_back4/Slave_b_back5/Slave_b_backtop/Slave_b_r_clavicle/Slave_b_r_shoulder/Slave_b_r_elbow/Slave_b_r_wrist/Slave_b_r_hand
+        weight: 1
+      - path: Slave_b_root/b_back1/Slave_b_back2/Slave_b_back3/Slave_b_back4/Slave_b_back5/Slave_b_backtop/Slave_b_r_clavicle/Slave_b_r_shoulder/Slave_b_r_elbow/Slave_b_r_wrist/Slave_b_r_hand/Slave_b_r_thumb1
+        weight: 1
+      - path: Slave_b_root/b_back1/Slave_b_back2/Slave_b_back3/Slave_b_back4/Slave_b_back5/Slave_b_backtop/Slave_b_r_clavicle/Slave_b_r_shoulder/Slave_b_r_elbow/Slave_b_r_wrist/Slave_b_r_hand/Slave_b_r_thumb1/Slave_b_r_thumb2
+        weight: 1
+      - path: Slave_b_root/b_back1/Slave_b_back2/Slave_b_back3/Slave_b_back4/Slave_b_back5/Slave_b_backtop/Slave_b_wolf_leg1
+        weight: 1
+      - path: Slave_b_root/b_back1/Slave_b_back2/Slave_b_back3/Slave_b_back4/Slave_b_back5/Slave_b_backtop/Slave_b_wolf_leg1/Slave_b_wolf_leg2
+        weight: 1
+      - path: Slave_b_root/b_back1/Slave_b_back2/Slave_b_back3/Slave_b_back4/Slave_b_back5/Slave_b_backtop/Slave_b_wolf_leg1/Slave_b_wolf_leg2/Slave_b_wolf_leg3
+        weight: 1
+      - path: Slave_b_root/b_l_hip
+        weight: 1
+      - path: Slave_b_root/b_l_hip/Slave_b_l_knee
+        weight: 1
+      - path: Slave_b_root/b_l_hip/Slave_b_l_knee/Slave_b_l_shin
+        weight: 1
+      - path: Slave_b_root/b_l_hip/Slave_b_l_knee/Slave_b_l_shin/Slave_b_l_ankle
+        weight: 1
+      - path: Slave_b_root/b_r_hip
+        weight: 1
+      - path: Slave_b_root/b_r_hip/Slave_b_r_knee
+        weight: 1
+      - path: Slave_b_root/b_r_hip/Slave_b_r_knee/Slave_b_r_shin
+        weight: 1
+      - path: Slave_b_root/b_r_hip/Slave_b_r_knee/Slave_b_r_shin/Slave_b_r_ankle
+        weight: 1
+      - path: Slave_b_root/b_tail1
+        weight: 1
+      - path: Slave_b_root/b_tail1/Slave_b_tail2
+        weight: 1
+      - path: Slave_b_root/b_tail1/Slave_b_tail2/Slave_b_tail3
+        weight: 1
+      - path: Slave_b_root/b_tail1/Slave_b_tail2/Slave_b_tail3/Slave_b_tail4
+        weight: 1
+      - path: Slave_b_root/b_tail1/Slave_b_tail2/Slave_b_tail3/Slave_b_tail4/Slave_b_tail5
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

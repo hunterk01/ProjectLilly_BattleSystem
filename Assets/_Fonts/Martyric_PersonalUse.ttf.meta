@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: c2568c9e033d0774ba68bd852c8f86ad
+timeCreated: 1490917316
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Martyric Personal Use Only
+  fontNames:
+  - Martyric Personal Use Only
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

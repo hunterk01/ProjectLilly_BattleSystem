@@ -1,0 +1,443 @@
+fileFormatVersion: 2
+guid: 98db689c65daa2042be55dec44e85d62
+timeCreated: 1493846921
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: bd_l_ear5
+    100002: bd_l_finger
+    100004: bd_l_toe
+    100006: bd_mouth
+    100008: bd_r_ear5
+    100010: bd_r_finger
+    100012: bd_r_toe
+    100014: bd_tail7
+    100016: bind_back1
+    100018: bind_back2
+    100020: bind_back3
+    100022: bind_butt
+    100024: bind_cheek
+    100026: bind_headend
+    100028: bind_jaw
+    100030: bind_l_ankle
+    100032: bind_l_clavicle
+    100034: bind_l_ear1
+    100036: bind_l_ear2
+    100038: bind_l_ear3
+    100040: bind_l_ear4
+    100042: bind_l_elbow
+    100044: bind_l_femur
+    100046: bind_l_forearm
+    100048: bind_l_hip
+    100050: bind_l_knee
+    100052: bind_l_shoulder1
+    100054: bind_l_wrist
+    100056: bind_neck1
+    100058: bind_neck2
+    100060: bind_neck3
+    100062: bind_neckend
+    100064: bind_pelvis
+    100066: bind_r_ankle
+    100068: bind_r_clavicle
+    100070: bind_r_ear1
+    100072: bind_r_ear2
+    100074: bind_r_ear3
+    100076: bind_r_ear4
+    100078: bind_r_elbow
+    100080: bind_r_femur
+    100082: bind_r_forearm
+    100084: bind_r_hip
+    100086: bind_r_knee
+    100088: bind_r_shoulder
+    100090: bind_r_wrist
+    100092: bind_stomach1
+    100094: bind_stomach2
+    100096: bind_stomach3
+    100098: bind_tail1
+    100100: bind_tail2
+    100102: bind_tail3
+    100104: bind_tail4
+    100106: bind_tail5
+    100108: bind_tail6
+    100110: bind_tailb
+    100112: butt_cntrl
+    100114: cluster1Handle
+    100116: cluster2Handle
+    100118: foot_l_cntrl
+    100120: foot_r_cntrl
+    100122: global_cntrl
+    100124: hand_l_cntrl
+    100126: hand_r_cntrl
+    100128: Head_Ctrl
+    100130: Head_CtrlGrp
+    100132: ikHandle7
+    100134: ikHandle8
+    100136: leftarm_polevector
+    100138: leftear_cntrl
+    100140: leftear_cntrlGrp
+    100142: leftleg_polevector
+    100144: mouth_cntrl
+    100146: mouth_cntrlGrp
+    100148: neck_cntrl
+    100150: obj_enem_wolf_corr0
+    100152: //RootNode
+    100154: rightarm_polevector
+    100156: rightear_cntrl
+    100158: rightear_cntrlGrp
+    100160: rightleg_polevector
+    100162: tail_cntrl
+    100164: tail_cntrlGrp
+    100166: upperback_cntrl
+    400000: bd_l_ear5
+    400002: bd_l_finger
+    400004: bd_l_toe
+    400006: bd_mouth
+    400008: bd_r_ear5
+    400010: bd_r_finger
+    400012: bd_r_toe
+    400014: bd_tail7
+    400016: bind_back1
+    400018: bind_back2
+    400020: bind_back3
+    400022: bind_butt
+    400024: bind_cheek
+    400026: bind_headend
+    400028: bind_jaw
+    400030: bind_l_ankle
+    400032: bind_l_clavicle
+    400034: bind_l_ear1
+    400036: bind_l_ear2
+    400038: bind_l_ear3
+    400040: bind_l_ear4
+    400042: bind_l_elbow
+    400044: bind_l_femur
+    400046: bind_l_forearm
+    400048: bind_l_hip
+    400050: bind_l_knee
+    400052: bind_l_shoulder1
+    400054: bind_l_wrist
+    400056: bind_neck1
+    400058: bind_neck2
+    400060: bind_neck3
+    400062: bind_neckend
+    400064: bind_pelvis
+    400066: bind_r_ankle
+    400068: bind_r_clavicle
+    400070: bind_r_ear1
+    400072: bind_r_ear2
+    400074: bind_r_ear3
+    400076: bind_r_ear4
+    400078: bind_r_elbow
+    400080: bind_r_femur
+    400082: bind_r_forearm
+    400084: bind_r_hip
+    400086: bind_r_knee
+    400088: bind_r_shoulder
+    400090: bind_r_wrist
+    400092: bind_stomach1
+    400094: bind_stomach2
+    400096: bind_stomach3
+    400098: bind_tail1
+    400100: bind_tail2
+    400102: bind_tail3
+    400104: bind_tail4
+    400106: bind_tail5
+    400108: bind_tail6
+    400110: bind_tailb
+    400112: butt_cntrl
+    400114: cluster1Handle
+    400116: cluster2Handle
+    400118: foot_l_cntrl
+    400120: foot_r_cntrl
+    400122: global_cntrl
+    400124: hand_l_cntrl
+    400126: hand_r_cntrl
+    400128: Head_Ctrl
+    400130: Head_CtrlGrp
+    400132: ikHandle7
+    400134: ikHandle8
+    400136: leftarm_polevector
+    400138: leftear_cntrl
+    400140: leftear_cntrlGrp
+    400142: leftleg_polevector
+    400144: mouth_cntrl
+    400146: mouth_cntrlGrp
+    400148: neck_cntrl
+    400150: obj_enem_wolf_corr0
+    400152: //RootNode
+    400154: rightarm_polevector
+    400156: rightear_cntrl
+    400158: rightear_cntrlGrp
+    400160: rightleg_polevector
+    400162: tail_cntrl
+    400164: tail_cntrlGrp
+    400166: upperback_cntrl
+    4300000: obj_enem_wolf_corr0
+    7400000: Wolf Basic Idle
+    9500000: //RootNode
+    13700000: obj_enem_wolf_corr0
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Wolf Basic Idle
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 199
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 2
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: global_cntrl
+        weight: 1
+      - path: global_cntrl/bind_pelvis
+        weight: 1
+      - path: global_cntrl/bind_pelvis/bind_back1
+        weight: 1
+      - path: global_cntrl/bind_pelvis/bind_back1/bind_back2
+        weight: 1
+      - path: global_cntrl/bind_pelvis/bind_back1/bind_back2/bind_back3
+        weight: 1
+      - path: global_cntrl/bind_pelvis/bind_back1/bind_back2/bind_back3/bind_l_shoulder1
+        weight: 1
+      - path: global_cntrl/bind_pelvis/bind_back1/bind_back2/bind_back3/bind_l_shoulder1/bind_l_clavicle
+        weight: 1
+      - path: global_cntrl/bind_pelvis/bind_back1/bind_back2/bind_back3/bind_l_shoulder1/bind_l_clavicle/bind_l_elbow
+        weight: 1
+      - path: global_cntrl/bind_pelvis/bind_back1/bind_back2/bind_back3/bind_l_shoulder1/bind_l_clavicle/bind_l_elbow/bind_l_forearm
+        weight: 1
+      - path: global_cntrl/bind_pelvis/bind_back1/bind_back2/bind_back3/bind_l_shoulder1/bind_l_clavicle/bind_l_elbow/bind_l_forearm/bind_l_wrist
+        weight: 1
+      - path: global_cntrl/bind_pelvis/bind_back1/bind_back2/bind_back3/bind_l_shoulder1/bind_l_clavicle/bind_l_elbow/bind_l_forearm/bind_l_wrist/bd_l_finger
+        weight: 1
+      - path: global_cntrl/bind_pelvis/bind_back1/bind_back2/bind_back3/bind_neck1
+        weight: 1
+      - path: global_cntrl/bind_pelvis/bind_back1/bind_back2/bind_back3/bind_neck1/bind_neck2
+        weight: 1
+      - path: global_cntrl/bind_pelvis/bind_back1/bind_back2/bind_back3/bind_neck1/bind_neck2/bind_neck3
+        weight: 1
+      - path: global_cntrl/bind_pelvis/bind_back1/bind_back2/bind_back3/bind_neck1/bind_neck2/bind_neck3/bind_neckend
+        weight: 1
+      - path: global_cntrl/bind_pelvis/bind_back1/bind_back2/bind_back3/bind_neck1/bind_neck2/bind_neck3/bind_neckend/bind_cheek
+        weight: 1
+      - path: global_cntrl/bind_pelvis/bind_back1/bind_back2/bind_back3/bind_neck1/bind_neck2/bind_neck3/bind_neckend/bind_cheek/bind_jaw
+        weight: 1
+      - path: global_cntrl/bind_pelvis/bind_back1/bind_back2/bind_back3/bind_neck1/bind_neck2/bind_neck3/bind_neckend/bind_cheek/bind_jaw/bd_mouth
+        weight: 1
+      - path: global_cntrl/bind_pelvis/bind_back1/bind_back2/bind_back3/bind_neck1/bind_neck2/bind_neck3/bind_neckend/bind_headend
+        weight: 1
+      - path: global_cntrl/bind_pelvis/bind_back1/bind_back2/bind_back3/bind_neck1/bind_neck2/bind_neck3/bind_neckend/bind_l_ear1
+        weight: 1
+      - path: global_cntrl/bind_pelvis/bind_back1/bind_back2/bind_back3/bind_neck1/bind_neck2/bind_neck3/bind_neckend/bind_l_ear1/bind_l_ear2
+        weight: 1
+      - path: global_cntrl/bind_pelvis/bind_back1/bind_back2/bind_back3/bind_neck1/bind_neck2/bind_neck3/bind_neckend/bind_l_ear1/bind_l_ear2/bind_l_ear3
+        weight: 1
+      - path: global_cntrl/bind_pelvis/bind_back1/bind_back2/bind_back3/bind_neck1/bind_neck2/bind_neck3/bind_neckend/bind_l_ear1/bind_l_ear2/bind_l_ear3/bind_l_ear4
+        weight: 1
+      - path: global_cntrl/bind_pelvis/bind_back1/bind_back2/bind_back3/bind_neck1/bind_neck2/bind_neck3/bind_neckend/bind_l_ear1/bind_l_ear2/bind_l_ear3/bind_l_ear4/bd_l_ear5
+        weight: 1
+      - path: global_cntrl/bind_pelvis/bind_back1/bind_back2/bind_back3/bind_neck1/bind_neck2/bind_neck3/bind_neckend/bind_r_ear1
+        weight: 1
+      - path: global_cntrl/bind_pelvis/bind_back1/bind_back2/bind_back3/bind_neck1/bind_neck2/bind_neck3/bind_neckend/bind_r_ear1/bind_r_ear2
+        weight: 1
+      - path: global_cntrl/bind_pelvis/bind_back1/bind_back2/bind_back3/bind_neck1/bind_neck2/bind_neck3/bind_neckend/bind_r_ear1/bind_r_ear2/bind_r_ear3
+        weight: 1
+      - path: global_cntrl/bind_pelvis/bind_back1/bind_back2/bind_back3/bind_neck1/bind_neck2/bind_neck3/bind_neckend/bind_r_ear1/bind_r_ear2/bind_r_ear3/bind_r_ear4
+        weight: 1
+      - path: global_cntrl/bind_pelvis/bind_back1/bind_back2/bind_back3/bind_neck1/bind_neck2/bind_neck3/bind_neckend/bind_r_ear1/bind_r_ear2/bind_r_ear3/bind_r_ear4/bd_r_ear5
+        weight: 1
+      - path: global_cntrl/bind_pelvis/bind_back1/bind_back2/bind_back3/bind_r_shoulder
+        weight: 1
+      - path: global_cntrl/bind_pelvis/bind_back1/bind_back2/bind_back3/bind_r_shoulder/bind_r_clavicle
+        weight: 1
+      - path: global_cntrl/bind_pelvis/bind_back1/bind_back2/bind_back3/bind_r_shoulder/bind_r_clavicle/bind_r_elbow
+        weight: 1
+      - path: global_cntrl/bind_pelvis/bind_back1/bind_back2/bind_back3/bind_r_shoulder/bind_r_clavicle/bind_r_elbow/bind_r_forearm
+        weight: 1
+      - path: global_cntrl/bind_pelvis/bind_back1/bind_back2/bind_back3/bind_r_shoulder/bind_r_clavicle/bind_r_elbow/bind_r_forearm/bind_r_wrist
+        weight: 1
+      - path: global_cntrl/bind_pelvis/bind_back1/bind_back2/bind_back3/bind_r_shoulder/bind_r_clavicle/bind_r_elbow/bind_r_forearm/bind_r_wrist/bd_r_finger
+        weight: 1
+      - path: global_cntrl/bind_pelvis/bind_back1/bind_stomach1
+        weight: 1
+      - path: global_cntrl/bind_pelvis/bind_back1/bind_stomach1/bind_stomach2
+        weight: 1
+      - path: global_cntrl/bind_pelvis/bind_back1/bind_stomach1/bind_stomach2/bind_stomach3
+        weight: 1
+      - path: global_cntrl/bind_pelvis/bind_butt
+        weight: 1
+      - path: global_cntrl/bind_pelvis/bind_butt/bind_tail1
+        weight: 1
+      - path: global_cntrl/bind_pelvis/bind_butt/bind_tail1/bind_tailb
+        weight: 1
+      - path: global_cntrl/bind_pelvis/bind_butt/bind_tail1/bind_tailb/bind_tail2
+        weight: 1
+      - path: global_cntrl/bind_pelvis/bind_butt/bind_tail1/bind_tailb/bind_tail2/bind_tail3
+        weight: 1
+      - path: global_cntrl/bind_pelvis/bind_butt/bind_tail1/bind_tailb/bind_tail2/bind_tail3/bind_tail4
+        weight: 1
+      - path: global_cntrl/bind_pelvis/bind_butt/bind_tail1/bind_tailb/bind_tail2/bind_tail3/bind_tail4/bind_tail5
+        weight: 1
+      - path: global_cntrl/bind_pelvis/bind_butt/bind_tail1/bind_tailb/bind_tail2/bind_tail3/bind_tail4/bind_tail5/bind_tail6
+        weight: 1
+      - path: global_cntrl/bind_pelvis/bind_butt/bind_tail1/bind_tailb/bind_tail2/bind_tail3/bind_tail4/bind_tail5/bind_tail6/bd_tail7
+        weight: 1
+      - path: global_cntrl/bind_pelvis/bind_l_hip
+        weight: 1
+      - path: global_cntrl/bind_pelvis/bind_l_hip/bind_l_femur
+        weight: 1
+      - path: global_cntrl/bind_pelvis/bind_l_hip/bind_l_femur/bind_l_knee
+        weight: 1
+      - path: global_cntrl/bind_pelvis/bind_l_hip/bind_l_femur/bind_l_knee/bind_l_ankle
+        weight: 1
+      - path: global_cntrl/bind_pelvis/bind_l_hip/bind_l_femur/bind_l_knee/bind_l_ankle/bd_l_toe
+        weight: 1
+      - path: global_cntrl/bind_pelvis/bind_r_hip
+        weight: 1
+      - path: global_cntrl/bind_pelvis/bind_r_hip/bind_r_femur
+        weight: 1
+      - path: global_cntrl/bind_pelvis/bind_r_hip/bind_r_femur/bind_r_knee
+        weight: 1
+      - path: global_cntrl/bind_pelvis/bind_r_hip/bind_r_femur/bind_r_knee/bind_r_ankle
+        weight: 1
+      - path: global_cntrl/bind_pelvis/bind_r_hip/bind_r_femur/bind_r_knee/bind_r_ankle/bd_r_toe
+        weight: 1
+      - path: global_cntrl/butt_cntrl
+        weight: 1
+      - path: global_cntrl/butt_cntrl/cluster2Handle
+        weight: 1
+      - path: global_cntrl/butt_cntrl/tail_cntrlGrp
+        weight: 1
+      - path: global_cntrl/butt_cntrl/tail_cntrlGrp/tail_cntrl
+        weight: 1
+      - path: global_cntrl/foot_l_cntrl
+        weight: 1
+      - path: global_cntrl/foot_r_cntrl
+        weight: 1
+      - path: global_cntrl/hand_l_cntrl
+        weight: 1
+      - path: global_cntrl/hand_l_cntrl/ikHandle7
+        weight: 1
+      - path: global_cntrl/hand_r_cntrl
+        weight: 1
+      - path: global_cntrl/hand_r_cntrl/ikHandle8
+        weight: 1
+      - path: global_cntrl/leftarm_polevector
+        weight: 1
+      - path: global_cntrl/leftleg_polevector
+        weight: 1
+      - path: global_cntrl/rightarm_polevector
+        weight: 1
+      - path: global_cntrl/rightleg_polevector
+        weight: 1
+      - path: global_cntrl/upperback_cntrl
+        weight: 1
+      - path: global_cntrl/upperback_cntrl/cluster1Handle
+        weight: 1
+      - path: global_cntrl/upperback_cntrl/neck_cntrl
+        weight: 1
+      - path: global_cntrl/upperback_cntrl/neck_cntrl/Head_CtrlGrp
+        weight: 1
+      - path: global_cntrl/upperback_cntrl/neck_cntrl/Head_CtrlGrp/Head_Ctrl
+        weight: 1
+      - path: global_cntrl/upperback_cntrl/neck_cntrl/Head_CtrlGrp/Head_Ctrl/leftear_cntrlGrp
+        weight: 1
+      - path: global_cntrl/upperback_cntrl/neck_cntrl/Head_CtrlGrp/Head_Ctrl/leftear_cntrlGrp/leftear_cntrl
+        weight: 1
+      - path: global_cntrl/upperback_cntrl/neck_cntrl/Head_CtrlGrp/Head_Ctrl/mouth_cntrlGrp
+        weight: 1
+      - path: global_cntrl/upperback_cntrl/neck_cntrl/Head_CtrlGrp/Head_Ctrl/mouth_cntrlGrp/mouth_cntrl
+        weight: 1
+      - path: global_cntrl/upperback_cntrl/neck_cntrl/Head_CtrlGrp/Head_Ctrl/rightear_cntrlGrp
+        weight: 1
+      - path: global_cntrl/upperback_cntrl/neck_cntrl/Head_CtrlGrp/Head_Ctrl/rightear_cntrlGrp/rightear_cntrl
+        weight: 1
+      - path: obj_enem_wolf_corr0
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

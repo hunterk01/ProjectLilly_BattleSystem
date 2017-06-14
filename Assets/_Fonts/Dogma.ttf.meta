@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 65744c62b10ece348a2d8f95a5419d17
+timeCreated: 1490915342
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Dogma
+  fontNames:
+  - Dogma
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

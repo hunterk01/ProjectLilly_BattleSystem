@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: d12d8a81fbd4ba443a26f704d9377630
+timeCreated: 1490917316
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Powerpuff Girls
+  fontNames:
+  - Powerpuff Girls
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
