@@ -355,15 +355,6 @@ public class BattleController : MonoBehaviour
         }
     }
 
-    // Update the heroesInBattle and enemiesInBattle lists
-    public void UpdateInBattleLists()
-    {
-        heroesInBattle.Clear();
-        heroesInBattle.AddRange(GameObject.FindGameObjectsWithTag("Hero"));
-        enemiesInBattle.Clear();
-        enemiesInBattle.AddRange(GameObject.FindGameObjectsWithTag("Enemy"));
-    }
-
     // Once the hero has chosen an action, activate the apporpriate target select panel
     public void ActionInput()
     {

@@ -124,7 +124,8 @@ public class EnemyController : MonoBehaviour
             }
         }
     }
-
+    
+    // Choose enemy attack options and pass it to the battle controller action collector
     void ChooseAction()
     {
         // Create an enemy attack and assign necessary info
@@ -154,15 +155,9 @@ public class EnemyController : MonoBehaviour
         battleControl.ActionCollector(enemyAttack);
     }
 
+    // Check if attack is melee or spell, set the target position, and send it to the proper enemyActionControl function
     private void PerformAction()
-    {
-        //// Set battle camera type
-        //if (!battleCameraSet)
-        //{
-        //    cameraControl.BattleCamInput(transform, enemyAttack.targetGO.transform, 1);
-        //    battleCameraSet = true;
-        //}
-
+    { 
         // Perform attack animation
         if (enemyAttack.chosenAttack.attackType == AttackData.AttackType.MELEE)
         {
@@ -176,6 +171,7 @@ public class EnemyController : MonoBehaviour
         }
     }
 
+    // Perform end of action checks and state change
     public void EndAction()
     {
         // Remove from the active agent list
@@ -194,11 +190,9 @@ public class EnemyController : MonoBehaviour
         {
             currentState = EnemyState.IDLE;
         }
-
-        //cameraControl.BattleCamReset();
-        //battleCameraSet = false;
     }
 
+    // Reduce enemy corruption level by a set amount and check if fully cleansed
     public void TakeCleansing(int _damage)
     {
         float newCorruption = enemy.currentCorruption - _damage;
@@ -215,6 +209,7 @@ public class EnemyController : MonoBehaviour
         StartCoroutine(LowerCorruptionBar(newCorruption));
     }
 
+    // Reduce enemy health by a set amount and check if it was enough to kill it
     public void TakeDamage(int _damage)
     {
         float newHealth = enemy.CurrentHealth - _damage;
@@ -236,12 +231,14 @@ public class EnemyController : MonoBehaviour
         StartCoroutine(LowerHealthBar(newHealth));
     }
 
+    // Pass attack damage to the targeted hero
     public void DoDamage()
     {
         int calculatedDamage = enemy.CurrentAttackPower + battleControl.activeAgentList[0].chosenAttack.attackDamage;
         enemyAttack.targetGO.GetComponent<HeroController>().TakeDamage(calculatedDamage);
     }
 
+    // Remove cleansed enemy from the necessary lists and call the function that controls the flee animations
     void EnemyCleansed()
     {
         if (!isAlive)
@@ -283,12 +280,10 @@ public class EnemyController : MonoBehaviour
             // Set isAlive to false, and check if all enemies are dead
             isAlive = false;
             battleControl.actionState = BattleController.ActionState.CHECKFORDEAD;
-
-            // Reset InBattle lists
-            battleControl.UpdateInBattleLists();
         }
     }
 
+    // Remove dead enemy of the necessary lists and call the function that controls the death animations
     void EnemyDeath()
     {
         if (!isAlive)
@@ -333,17 +328,16 @@ public class EnemyController : MonoBehaviour
             // Set isAlive to false, and check if all enemies are dead
             isAlive = false;
             battleControl.actionState = BattleController.ActionState.CHECKFORDEAD;
-
-            // Reset InBattle lists
-            battleControl.UpdateInBattleLists();
         }
     }
 
+    // Call the function to revive the dead enemy
     public void EnemyRevive()
     {
         enemyActionControl.Revive();
     }
 
+    // Initialize the enemy info panel
     void StartEnemyPanel()
     {
         panelInfo = enemyPanel.GetComponent<EnemyPanelInfo>();
@@ -380,8 +374,8 @@ public class EnemyController : MonoBehaviour
         UpdateEnemyPanel();
     }
 
+    // Update changes to the enemy info panel
     public void UpdateEnemyPanel()
-    // TODO: Modify to accomodate different class info
     {
         // Update HP bar and text
         float HP_FillPercentage = enemy.CurrentHealth / enemy.baseHealth;

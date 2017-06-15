@@ -37,16 +37,6 @@ public class WolfController : MonoBehaviour, IEnemyActionControl
         //animator.SetTrigger("Revive1Trigger");
     }
 
-    public void ThreatTracking()
-    {
-
-    }
-
-    public void TargetSelection()
-    {
-
-    }
-
     // Receive attack data and run the appropriate coroutine
     public void AttackInput(AttackData _chosenAttack, Vector3 _targetPosition)
     {
@@ -226,7 +216,6 @@ public class WolfController : MonoBehaviour, IEnemyActionControl
         enemyControl.enemyPanel.SetActive(false);
         
         actionStarted = false;
-        enemyControl.EndAction();
     }
 
     private bool MoveTowardTarget(Vector3 target)
